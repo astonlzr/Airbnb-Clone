@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <title>Airbnb Clone</title>
+
+</head>
+
+
+<body>
+
+  <div class="header-1">
+
+    <div class="left-section">
+      <img class="bnb-logo" src="https://1000logos.net/wp-content/uploads/2023/01/Airbnb-logo.png" alt="">
+    </div>
+
+
+    <div class="middle-section">
+      <div class="row rounded-pill" id="mid-pill">
+        <div class="col-3 mid border-end pe-5">
+          Anywhere
+        </div>
+        <div class="col-3 text-nowrap mid border-end ">
+          Any week
+        </div>
+        <div class="col-4 text-nowrap mid fw-normal text-muted">
+          Add Guests
+        </div>
+        <div class="col-2 text-nowrap mid">
+          <div class="me-1">
+            <img id="search-icon" src="icons/search-icon.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="right-section">
+      <div class="airbnb-right">
+        Airbnb your home
+      </div>
+      <div class="globe-section">
+        <img src="icons/globe2.svg" alt="" class="globe-icon">
+      </div>
+      <div class="profile-section" onclick="signuptab()">
+        <div class="list-section">
+          <div src="icons/list.svg" alt="" class="list-icon"></div>
+        </div>
+        <div class="person-section">
+          <div src="icons/person-circle.svg" alt="" class="profile-icon"></div>
+        </div>
+        <div id="profile-box" >
+          <div class="profile-box-text">
+            Sign up
+          </div>
+          <div class="profile-box-text">
+            Log in
+          </div>
+          <div class="profile-box-text">
+            Airbnb your home
+          </div>
+          <div class="profile-box-text">
+            Help Centre
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="header-2">
+      <div class="row">
+
+        <div class="col-9">
+          <div class="d-flex flex-row mb-2" id="icon-select">
+            <div class="p-2">
+              <div><img src="icons/header2-icon-1.jpg" alt=""></div>
+              <span>Rooms</span>
+            </div>
+            <div class="p-2">
+              <div><img src="icons/header2-icon-2.jpg" alt=""></div>
+              <span>Tiny Homes</span>
+            </div>
+            <div class="p-2">
+              <div><img src="icons/header2-icon-3.jpg" alt=""></div>
+              <span>Countryside</span>
+            </div>
+            <div class="p-2">
+              <div><img src="icons/header2-icon-4.jpg" alt=""></div>
+              <span>Beach Front</span>
+            </div>
+            <div class="p-2">
+              <div><img src="icons/header2-icon-5.jpg" alt=""></div>
+              <span>Lake Front</span>
+            </div>
+            <div class="p-2">
+              <div><img src="icons/header2-icon-6.jpg" alt=""></div>
+              <span>Cabins</span>
+            </div>
+            <div class="p-2">
+              <div><img src="icons/header2-icon-7.jpg" alt=""></div>
+              <span>Castle</span>
+            </div>
+            <div class="p-2">
+              <div><img src="icons/header2-icon-8.jpg" alt=""></div>
+              <span>Iconic Cities</span>
+            </div>
+            <div class="p-2">
+              <div><img src="icons/header2-icon-9.jpg" alt=""></div>
+              <span>Tropical</span>
+            </div>
+            <div class="p-2">
+              <div><img src="icons/header2-icon-10.jpg" alt=""></div>
+              <span>Trending</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-1">
+          <div class="filter-section">
+            <img src="icons/filter-icon.png" alt="" id="filter-icon">
+            <span>Filters</span>
+          </div>
+        </div>
+
+        <div class="col-2">
+          <div class="filter-section">
+            <span>Display total before taxes</span>
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider round"></span>
+          </label>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+              <div class="card border border-0" style="width: 290px; height: auto;">
+                <div class="card-body">
+                  <img src="images/img-1.webp" alt="" class="card-img-top object-fit-cover rounded">
+                  <h6 class="card-title">Dubai, UAE</h6>
+                  <p class="card-text">2,548 kilometers away</p>
+                  <p class="card-text">6-11 Oct</p>
+                  <p class="card-text"><span class="fw-bold">&#8377;11,995</span> night</p>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-3">
+              <div class="card border border-0" style="width: 290px; height: auto;">
+                <div class="card-body">
+                  <img src="images/img-2.webp" alt="" class="card-img-top object-fit-cover rounded">
+                  <h6 class="card-title">Dubai, UAE</h6>
+                  <p class="card-text">2,788 kilometers away</p>
+                  <p class="card-text">15-20 Oct</p>
+                  <p class="card-text"><span class="fw-bold">&#8377;14,755</span> night</p>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-3">
+              <div class="card border border-0" style="width: 290px; height: auto;">
+                <div class="card-body">
+                  <img src="images/img-3.webp" alt="" class="card-img-top object-fit-cover rounded">
+                  <h6 class="card-title">Melbourne, Australia</h6>
+                  <p class="card-text">8,877 kilometers away</p>
+                  <p class="card-text">6-14 Oct</p>
+                  <p class="card-text"><span class="fw-bold">&#8377;11,995</span> night</p>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-3">
+              <div class="card border border-0" style="width: 290px; height: auto;">
+                <div class="card-body">
+                  <img src="images/img-4.webp" alt="" class="card-img-top object-fit-cover rounded">
+                  <h6 class="card-title">Dublin, Ireland</h6>
+                  <p class="card-text">8,636 kilometers away</p>
+                  <p class="card-text">1-6 Oct</p>
+                  <p class="card-text"><span class="fw-bold">&#8377;15,45,955</span> night</p>
+                </div>
+              </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-3">
+              <div class="card border border-0" style="width: 290px; height: auto;">
+                <div class="card-body">
+                  <img src="images/img-5.webp" alt="" class="card-img-top object-fit-cover rounded">
+                  <h6 class="card-title">Rome, Italy</h6>
+                  <p class="card-text">7,109 kilometers away</p>
+                  <p class="card-text">26 Oct - 3 Nov</p>
+                  <p class="card-text"><span class="fw-bold">&#8377;32,995</span> night</p>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-3">
+              <div class="card border border-0" style="width: 290px; height: auto;">
+                <div class="card-body">
+                  <img src="images/img-6.webp" alt="" class="card-img-top object-fit-cover rounded">
+                  <h6 class="card-title">Paris, France</h6>
+                  <p class="card-text">8,508 kilometers away</p>
+                  <p class="card-text">23-27 Nov</p>
+                  <p class="card-text"><span class="fw-bold">&#8377;1,20,995</span> night</p>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-3">
+              <div class="card border border-0" style="width: 290px; height: auto;">
+                <div class="card-body">
+                  <img src="images/img-7.webp" alt="" class="card-img-top object-fit-cover rounded">
+                  <h6 class="card-title">Cape Town, South Africa</h6>
+                  <p class="card-text">7,815 kilometers away</p>
+                  <p class="card-text">1-6 Oct</p>
+                  <p class="card-text"><span class="fw-bold">&#8377;1,61,995</span> night</p>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-3">
+              <div class="card border border-0" style="width: 290px; height: auto;">
+                <div class="card-body">
+                  <img src="images/img-8.webp" alt="" class="card-img-top object-fit-cover rounded">
+                  <h6 class="card-title">Paris, France</h6>
+                  <p class="card-text">8,004 kilometers away</p>
+                  <p class="card-text">6-10 Oct</p>
+                  <p class="card-text"><span class="fw-bold">&#8377;40,905</span> night</p>
+                </div>
+              </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-3">
+              <div class="card border border-0" style="width: 290px; height: auto;">
+                <div class="card-body">
+                  <img src="images/img-9.webp" alt="" class="card-img-top object-fit-cover rounded">
+                  <h6 class="card-title">Marrakesh, Morocco</h6>
+                  <p class="card-text">8,828 kilometers away</p>
+                  <p class="card-text">1-6 Oct</p>
+                  <p class="card-text"><span class="fw-bold">&#8377;2,98,020</span> night</p>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-3">
+              <div class="card border border-0" style="width: 290px; height: auto;">
+                <div class="card-body">
+                  <img src="images/img-10.webp" alt="" class="card-img-top object-fit-cover rounded">
+                  <h6 class="card-title">Paris, France</h6>
+                  <p class="card-text">8,008 kilometers away</p>
+                  <p class="card-text">1-6 Oct</p>
+                  <p class="card-text"><span class="fw-bold">&#8377;1,31,995</span> night</p>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-3">
+              <div class="card border border-0" style="width: 290px; height: auto;">
+                <div class="card-body">
+                  <img src="images/img-11.webp" alt="" class="card-img-top object-fit-cover rounded">
+                  <h6 class="card-title">Dubai, UAE</h6>
+                  <p class="card-text">2,788 kilometers away</p>
+                  <p class="card-text">27 Dec - 1 Jan</p>
+                  <p class="card-text"><span class="fw-bold">&#8377;2,86,845</span> night</p>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-3">
+              <div class="card border border-0" style="width: 290px; height: auto;">
+                <div class="card-body">
+                  <img src="images/img-12.webp" alt="" class="card-img-top object-fit-cover rounded">
+                  <h6 class="card-title">Paris, France</h6>
+                  <p class="card-text">8,010 kilometers away</p>
+                  <p class="card-text">25-29 Oct</p>
+                  <p class="card-text"><span class="fw-bold">&#8377;1,21,995</span> night</p>
+                </div>
+              </div>
+          </div>
+
+          <div class="row">
+            <div class="col-3">
+                <div class="card border border-0" style="width: 290px; height: auto;">
+                  <div class="card-body">
+                    <img src="images/img-13.webp" alt="" class="card-img-top object-fit-cover rounded">
+                    <h6 class="card-title">London, UK</h6>
+                    <p class="card-text">8,208 kilometers away</p>
+                    <p class="card-text">1-6 Oct</p>
+                    <p class="card-text"><span class="fw-bold">&#8377;1,56,020</span> night</p>
+                  </div>
+                </div>
+            </div>
+  
+            <div class="col-3">
+                <div class="card border border-0" style="width: 290px; height: auto;">
+                  <div class="card-body">
+                    <img src="images/img-14.webp" alt="" class="card-img-top object-fit-cover rounded">
+                    <h6 class="card-title">Cape Town, South Africa</h6>
+                    <p class="card-text">7,823 kilometers away</p>
+                    <p class="card-text">1-6 Oct</p>
+                    <p class="card-text"><span class="fw-bold">&#8377;1,67,995</span> night</p>
+                  </div>
+                </div>
+            </div>
+  
+            <div class="col-3">
+                <div class="card border border-0" style="width: 290px; height: auto;">
+                  <div class="card-body">
+                    <img src="images/img-15.webp" alt="" class="card-img-top object-fit-cover rounded">
+                    <h6 class="card-title">London, UK</h6>
+                    <p class="card-text">8,288 kilometers away</p>
+                    <p class="card-text">16-27 Oct</p>
+                    <p class="card-text"><span class="fw-bold">&#8377;1,86,355</span> night</p>
+                  </div>
+                </div>
+            </div>
+  
+            <div class="col-3">
+                <div class="card border border-0" style="width: 290px; height: auto;">
+                  <div class="card-body">
+                    <img src="images/img-16.webp" alt="" class="card-img-top object-fit-cover rounded">
+                    <h6 class="card-title">Paris, France</h6>
+                    <p class="card-text">8,010 kilometers away</p>
+                    <p class="card-text">5-12 Oct</p>
+                    <p class="card-text"><span class="fw-bold">&#8377;2,91,995</span> night</p>
+                  </div>
+                </div>
+            </div>
+  
+        </div>
+      </div>
+    </main>
+
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+  <!--BootStrap JS-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
